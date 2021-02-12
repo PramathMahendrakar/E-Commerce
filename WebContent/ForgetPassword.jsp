@@ -26,7 +26,7 @@
 	</nav>
 
 
-	<form action="covid.do" method="post">
+	<form action="forget.do" method="post">
 
 		<br> <br>
 		<form class="row g-3">
@@ -34,7 +34,7 @@
 
 				<div class="col-sm-12">
 					<label for="inputEmail4" class="form-label">Email</label> <input
-						type="email" class="form-control" id="inputEmail4">
+						type="email" class="form-control" id="inputEmail4" name="email">
 				</div>
 
 				<br>

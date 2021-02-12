@@ -25,12 +25,16 @@
 
 	</nav>
 
-
 	<form action="info.do" method="post">
 
+		<h4>${dto.message}</h4>
 		<br> <br>
+
 		<form class="row g-3">
 			<div class="col-lg-4 m-auto d-block">
+
+
+
 				<div class="col-sm-12">
 					<label for="inputName" class="form-label">First Name</label> <input
 						type="text" class="form-control" id="inputName" name="fname">
@@ -46,12 +50,13 @@
 				</div>
 				<div class="col-sm-12">
 					<label for="inputPassword6" class="form-label">Password</label> <input
-						type="password" class="form-control" id="inputPassword6" name="password">
+						type="password" class="form-control" id="inputPassword6"
+						name="password">
 				</div>
 				<div class="col-sm-12">
 					<label for="inputPassword6" class="form-label">Confirm
-						Password</label> <input type="password" class="form-control" id="inputPassword6"
-						name="confimPassword">
+						Password</label> <input type="password" class="form-control"
+						id="inputPassword6" name="confimPassword">
 				</div>
 
 				<br>

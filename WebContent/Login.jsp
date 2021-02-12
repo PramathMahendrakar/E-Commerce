@@ -24,7 +24,8 @@
 
 	</nav>
 
-	<form action="covid.do" method="post">
+	${message} ${name}
+	<form action="login.do" method="post">
 		<br> <br>
 
 		<form class="row g-3">
@@ -32,11 +33,12 @@
 
 				<div class="col-sm-12">
 					<label for="inputEmail4" class="form-label">Email</label> <input
-						type="email" class="form-control" id="inputEmail4">
+						type="email" class="form-control" id="inputEmail4" name="email">
 				</div>
 				<div class="col-sm-12">
-					<label for="inputEmail4" class="form-label">Password</label> <input
-						type="email" class="form-control" id="inputEmail4">
+					<label for="inputPassword6" class="form-label">Password</label> <input
+						type="password" class="form-control" id="inputPassword6"
+						name="password">
 				</div>
 
 				<br>
